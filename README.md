@@ -1,12 +1,33 @@
-# React + Vite
+# Godspeed Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive multi-page landing site for the Godspeed framework. Built with React and TailwindCSS, this project showcases Godspeed’s features, team, pricing, and philosophy in a sleek and developer-friendly interface. The landing page serves as a front-facing introduction to the Godspeed framework. It includes the following sections:
 
-Currently, two official plugins are available:
+- **Hero**: Bold headline, subtext, and CTA
+- **Product**: Key features and capabilities
+- **Team**: Showcases members with avatars
+- **About**: Explains what Godspeed is and its goals
+- **Pricing**: Tiered plans with clear value props
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Single-page layout with full section-based structure
+- Responsive and mobile-friendly
+- Utility-first CSS with Tailwind for fast UI development
+- Modular components for easy updates and maintenance
+- Custom styling and spacing to avoid AI-generated feel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Built With
+
+- **React (Vite)** – component-based UI
+- **TailwindCSS** – utility-first styling
+- **Unsplash** – placeholder team images
+
+## Getting Started
+
+```bash
+git clone https://github.com/AaryamJain22/godspeed-landing.git
+cd godspeed-landing
+npm install
+npm run dev
+```
